@@ -1,0 +1,15 @@
+{
+  "name": "trustinchain-backend",
+  "version": "1.0.0",
+  "description": "TrustInChain-project",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "test": "truffle test"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@openzeppelin/test-helpers": "^0.5.16"
+  }
+}
